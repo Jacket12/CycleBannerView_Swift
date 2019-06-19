@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,19 @@
 		2C1DE60622BA0FDC003E3CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1DE60422BA0FDC003E3CD1 /* LaunchScreen.storyboard */; };
 		2C1DE61122BA0FDD003E3CD1 /* CycleBannerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DE61022BA0FDD003E3CD1 /* CycleBannerViewTests.swift */; };
 		2C1DE61C22BA0FDD003E3CD1 /* CycleBannerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DE61B22BA0FDD003E3CD1 /* CycleBannerViewUITests.swift */; };
+		2C1DE63522BA1037003E3CD1 /* control_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1DE62B22BA1037003E3CD1 /* control_selected@2x.png */; };
+		2C1DE63622BA1037003E3CD1 /* CyCleBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DE62C22BA1037003E3CD1 /* CyCleBanner.swift */; };
+		2C1DE63722BA1037003E3CD1 /* CycleBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DE62D22BA1037003E3CD1 /* CycleBannerCell.swift */; };
+		2C1DE63822BA1037003E3CD1 /* control_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1DE62E22BA1037003E3CD1 /* control_normal@2x.png */; };
+		2C1DE63922BA1037003E3CD1 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DE62F22BA1037003E3CD1 /* BannerViewController.swift */; };
+		2C1DE63A22BA1037003E3CD1 /* num_icon_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1DE63122BA1037003E3CD1 /* num_icon_pic.png */; };
+		2C1DE63B22BA1037003E3CD1 /* NumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DE63222BA1037003E3CD1 /* NumView.swift */; };
+		2C1DE63C22BA1037003E3CD1 /* CyNumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DE63322BA1037003E3CD1 /* CyNumCell.swift */; };
+		2C1DE63D22BA1037003E3CD1 /* CyNumBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DE63422BA1037003E3CD1 /* CyNumBanner.swift */; };
+		2C1DE64122BA10AF003E3CD1 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DE64022BA10AF003E3CD1 /* OCViewController.m */; };
+		2C1DE64322BA2A47003E3CD1 /* UITableView+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DE64222BA2A47003E3CD1 /* UITableView+Identifier.swift */; };
+		2C1DE64522BA3F5D003E3CD1 /* CycleBannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1DE64422BA3F5D003E3CD1 /* CycleBannerController.swift */; };
+		9FD25B6FFD601F01575F989A /* Pods_CycleBannerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018DD1C961B4A9708667556B /* Pods_CycleBannerView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018DD1C961B4A9708667556B /* Pods_CycleBannerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CycleBannerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B5697CBCAB21B6811C805D /* Pods-CycleBannerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CycleBannerView.debug.xcconfig"; path = "Target Support Files/Pods-CycleBannerView/Pods-CycleBannerView.debug.xcconfig"; sourceTree = "<group>"; };
 		2C1DE5F822BA0FD3003E3CD1 /* CycleBannerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CycleBannerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1DE5FB22BA0FD3003E3CD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C1DE5FD22BA0FD3003E3CD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,21 @@
 		2C1DE61722BA0FDD003E3CD1 /* CycleBannerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CycleBannerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1DE61B22BA0FDD003E3CD1 /* CycleBannerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleBannerViewUITests.swift; sourceTree = "<group>"; };
 		2C1DE61D22BA0FDD003E3CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1DE62B22BA1037003E3CD1 /* control_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "control_selected@2x.png"; sourceTree = "<group>"; };
+		2C1DE62C22BA1037003E3CD1 /* CyCleBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyCleBanner.swift; sourceTree = "<group>"; };
+		2C1DE62D22BA1037003E3CD1 /* CycleBannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleBannerCell.swift; sourceTree = "<group>"; };
+		2C1DE62E22BA1037003E3CD1 /* control_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "control_normal@2x.png"; sourceTree = "<group>"; };
+		2C1DE62F22BA1037003E3CD1 /* BannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		2C1DE63122BA1037003E3CD1 /* num_icon_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num_icon_pic.png; sourceTree = "<group>"; };
+		2C1DE63222BA1037003E3CD1 /* NumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumView.swift; sourceTree = "<group>"; };
+		2C1DE63322BA1037003E3CD1 /* CyNumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyNumCell.swift; sourceTree = "<group>"; };
+		2C1DE63422BA1037003E3CD1 /* CyNumBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyNumBanner.swift; sourceTree = "<group>"; };
+		2C1DE63E22BA10AF003E3CD1 /* CycleBannerView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CycleBannerView-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C1DE63F22BA10AF003E3CD1 /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		2C1DE64022BA10AF003E3CD1 /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
+		2C1DE64222BA2A47003E3CD1 /* UITableView+Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Identifier.swift"; sourceTree = "<group>"; };
+		2C1DE64422BA3F5D003E3CD1 /* CycleBannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleBannerController.swift; sourceTree = "<group>"; };
+		F63C383F3329640EF8A11E61 /* Pods-CycleBannerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CycleBannerView.release.xcconfig"; path = "Target Support Files/Pods-CycleBannerView/Pods-CycleBannerView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD25B6FFD601F01575F989A /* Pods_CycleBannerView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19BA2CA09893FD4D8D88B66D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				018DD1C961B4A9708667556B /* Pods_CycleBannerView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2C1DE5EF22BA0FD3003E3CD1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				2C1DE60F22BA0FDD003E3CD1 /* CycleBannerViewTests */,
 				2C1DE61A22BA0FDD003E3CD1 /* CycleBannerViewUITests */,
 				2C1DE5F922BA0FD3003E3CD1 /* Products */,
+				8196BFDE358992B0CF71FFFE /* Pods */,
+				19BA2CA09893FD4D8D88B66D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +138,16 @@
 		2C1DE5FA22BA0FD3003E3CD1 /* CycleBannerView */ = {
 			isa = PBXGroup;
 			children = (
+				2C1DE62922BA1037003E3CD1 /* Banner */,
 				2C1DE5FB22BA0FD3003E3CD1 /* AppDelegate.swift */,
 				2C1DE5FD22BA0FD3003E3CD1 /* ViewController.swift */,
 				2C1DE5FF22BA0FD3003E3CD1 /* Main.storyboard */,
 				2C1DE60222BA0FDC003E3CD1 /* Assets.xcassets */,
 				2C1DE60422BA0FDC003E3CD1 /* LaunchScreen.storyboard */,
 				2C1DE60722BA0FDC003E3CD1 /* Info.plist */,
+				2C1DE63F22BA10AF003E3CD1 /* OCViewController.h */,
+				2C1DE64022BA10AF003E3CD1 /* OCViewController.m */,
+				2C1DE63E22BA10AF003E3CD1 /* CycleBannerView-Bridging-Header.h */,
 			);
 			path = CycleBannerView;
 			sourceTree = "<group>";
@@ -125,6 +170,49 @@
 			path = CycleBannerViewUITests;
 			sourceTree = "<group>";
 		};
+		2C1DE62922BA1037003E3CD1 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				2C1DE62A22BA1037003E3CD1 /* CyCleBanner */,
+				2C1DE62F22BA1037003E3CD1 /* BannerViewController.swift */,
+				2C1DE64422BA3F5D003E3CD1 /* CycleBannerController.swift */,
+				2C1DE63022BA1037003E3CD1 /* CyNumBanner */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		2C1DE62A22BA1037003E3CD1 /* CyCleBanner */ = {
+			isa = PBXGroup;
+			children = (
+				2C1DE64222BA2A47003E3CD1 /* UITableView+Identifier.swift */,
+				2C1DE62B22BA1037003E3CD1 /* control_selected@2x.png */,
+				2C1DE62C22BA1037003E3CD1 /* CyCleBanner.swift */,
+				2C1DE62D22BA1037003E3CD1 /* CycleBannerCell.swift */,
+				2C1DE62E22BA1037003E3CD1 /* control_normal@2x.png */,
+			);
+			path = CyCleBanner;
+			sourceTree = "<group>";
+		};
+		2C1DE63022BA1037003E3CD1 /* CyNumBanner */ = {
+			isa = PBXGroup;
+			children = (
+				2C1DE63122BA1037003E3CD1 /* num_icon_pic.png */,
+				2C1DE63222BA1037003E3CD1 /* NumView.swift */,
+				2C1DE63322BA1037003E3CD1 /* CyNumCell.swift */,
+				2C1DE63422BA1037003E3CD1 /* CyNumBanner.swift */,
+			);
+			path = CyNumBanner;
+			sourceTree = "<group>";
+		};
+		8196BFDE358992B0CF71FFFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20B5697CBCAB21B6811C805D /* Pods-CycleBannerView.debug.xcconfig */,
+				F63C383F3329640EF8A11E61 /* Pods-CycleBannerView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C1DE62022BA0FDD003E3CD1 /* Build configuration list for PBXNativeTarget "CycleBannerView" */;
 			buildPhases = (
+				15503CC3B156CADB476B39E3 /* [CP] Check Pods Manifest.lock */,
 				2C1DE5F422BA0FD3003E3CD1 /* Sources */,
 				2C1DE5F522BA0FD3003E3CD1 /* Frameworks */,
 				2C1DE5F622BA0FD3003E3CD1 /* Resources */,
+				811D8E98FB34959ACDDE6029 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +283,7 @@
 				TargetAttributes = {
 					2C1DE5F722BA0FD3003E3CD1 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					2C1DE60B22BA0FDD003E3CD1 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -230,7 +321,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C1DE60622BA0FDC003E3CD1 /* LaunchScreen.storyboard in Resources */,
+				2C1DE63522BA1037003E3CD1 /* control_selected@2x.png in Resources */,
+				2C1DE63822BA1037003E3CD1 /* control_normal@2x.png in Resources */,
 				2C1DE60322BA0FDC003E3CD1 /* Assets.xcassets in Resources */,
+				2C1DE63A22BA1037003E3CD1 /* num_icon_pic.png in Resources */,
 				2C1DE60122BA0FD3003E3CD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +345,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15503CC3B156CADB476B39E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CycleBannerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		811D8E98FB34959ACDDE6029 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CycleBannerView/Pods-CycleBannerView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CycleBannerView/Pods-CycleBannerView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CycleBannerView/Pods-CycleBannerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C1DE5F422BA0FD3003E3CD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1DE63922BA1037003E3CD1 /* BannerViewController.swift in Sources */,
 				2C1DE5FE22BA0FD3003E3CD1 /* ViewController.swift in Sources */,
+				2C1DE64322BA2A47003E3CD1 /* UITableView+Identifier.swift in Sources */,
 				2C1DE5FC22BA0FD3003E3CD1 /* AppDelegate.swift in Sources */,
+				2C1DE63722BA1037003E3CD1 /* CycleBannerCell.swift in Sources */,
+				2C1DE63C22BA1037003E3CD1 /* CyNumCell.swift in Sources */,
+				2C1DE63622BA1037003E3CD1 /* CyCleBanner.swift in Sources */,
+				2C1DE63D22BA1037003E3CD1 /* CyNumBanner.swift in Sources */,
+				2C1DE63B22BA1037003E3CD1 /* NumView.swift in Sources */,
+				2C1DE64122BA10AF003E3CD1 /* OCViewController.m in Sources */,
+				2C1DE64522BA3F5D003E3CD1 /* CycleBannerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,34 +575,41 @@
 		};
 		2C1DE62122BA0FDD003E3CD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B5697CBCAB21B6811C805D /* Pods-CycleBannerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CycleBannerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.meihui.com.CycleBannerView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meihui.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "CycleBannerView/CycleBannerView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		2C1DE62222BA0FDD003E3CD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63C383F3329640EF8A11E61 /* Pods-CycleBannerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CycleBannerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.meihui.com.CycleBannerView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meihui.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "CycleBannerView/CycleBannerView-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
